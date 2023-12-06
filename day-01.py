@@ -88,10 +88,10 @@ def part_two(text):
 
 part_one(example)
 
-with open("day1.in", "rt") as f:
+with open("day-01.in", "rt") as f:
     part_one(f.read())
 
 part_two(example2)
 
-with open("day1.in", "rt") as f:
+with open("day-01.in", "rt") as f:
     part_two(f.read())
